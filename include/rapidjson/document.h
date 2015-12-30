@@ -1747,6 +1747,14 @@ private:
 
     Data data_;
     unsigned flags_;
+
+public:
+    /* home made getter */
+    Data getData()
+    {
+    	return data_;
+    }
+
 };
 
 //! GenericValue with UTF8 encoding
